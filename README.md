@@ -2,9 +2,9 @@
 ## TP3 parallélisme 2017
 ### Prérequis
 #### Compiler avec MPI
-mpicc [fichier].c -o [programme compilé] -lm -fopenmp
+```mpicc ```[fichier]```.c -o ```[programme compilé]``` -lm -fopenmp
 #### Lancer le programme compilé
-./[programme compilé]
+```./```[programme compilé]
 ### Question 1
 #### **(Nombre de coeurs disponibles)** Vérifier à l'aide de la commande ```cat /proc/cpuinfo```, le nombre de coeurs disponibles sur votre machine
 2 * 4 = 8 coeurs
